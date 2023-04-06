@@ -1,0 +1,140 @@
+
+19-Mar-2023 02:34:32
+Checking compatibility for design error detection: model 'MiLTesting_HarnessModel'
+Compiling model...done
+Building model representation...done
+
+19-Mar-2023 02:35:19
+'MiLTesting_HarnessModel' is compatible for design error detection with Simulink Design Verifier.
+
+
+Detecting design errors using model representation from 19-Mar-2023 02:35:19...
+
+VALID
+Speedometer_Module/Auxilliary_Data_Filtering/Divide
+Division by zero
+Analysis Time = 00:00:21
+
+VALID
+Speedometer_Module/Auxilliary_Data_Filtering/Divide
+Overflow
+Analysis Time = 00:00:21
+
+VALID
+Speedometer_Module/Main_Data_Filtering/Gain
+Overflow
+Analysis Time = 00:00:21
+
+VALID
+Speedometer_Module/Main_Data_Filtering/Divide
+Overflow
+Analysis Time = 00:00:21
+
+VALID
+Speedometer_Module/Main_Data_Filtering/Add
+Overflow
+Analysis Time = 00:00:21
+
+VALID
+Speedometer_Module/Main_Data_Filtering/Divide
+Division by zero
+Analysis Time = 00:00:21
+
+VALID
+Speedometer_Module/Auxilliary_Data_Filtering/Gain
+Overflow
+Analysis Time = 00:00:21
+
+VALID
+Speedometer_Module/Auxilliary_Data_Filtering/Add
+Overflow
+Analysis Time = 00:00:24
+
+FALSIFIED
+Speedometer_Module/Display_Speed_Output/Add
+Overflow
+Analysis Time = 00:00:54
+
+UNDECIDED
+Speedometer_Module/Input_Processing/Saturation
+input > upper limit false
+Analysis Time = N/A
+
+UNDECIDED
+Speedometer_Module/Input_Processing/Saturation
+input > upper limit true
+Analysis Time = N/A
+
+UNDECIDED
+Speedometer_Module/Input_Processing/Saturation
+input >= lower limit false
+Analysis Time = N/A
+
+UNDECIDED
+Speedometer_Module/Input_Processing/Saturation
+input >= lower limit true
+Analysis Time = N/A
+
+UNDECIDED
+Speedometer_Module/Compare To Zero/Compare
+RelationalOperator: input1 == input2 false
+Analysis Time = N/A
+
+UNDECIDED
+Speedometer_Module/Compare To Zero/Compare
+RelationalOperator: input1 == input2 true
+Analysis Time = N/A
+
+UNDECIDED
+Speedometer_Module/Main_Data_Filtering
+Enable control activated false
+Analysis Time = N/A
+
+UNDECIDED
+Speedometer_Module/Main_Data_Filtering
+Enable control activated true
+Analysis Time = N/A
+
+UNDECIDED
+Speedometer_Module/Auxilliary_Data_Filtering
+Enable control activated false
+Analysis Time = N/A
+
+UNDECIDED
+Speedometer_Module/Auxilliary_Data_Filtering
+Enable control activated true
+Analysis Time = N/A
+
+UNDECIDED
+Speedometer_Module/Display_Speed_Output/Relational Operator
+RelationalOperator: input1 > input2 false
+Analysis Time = N/A
+
+UNDECIDED
+Speedometer_Module/Display_Speed_Output/Relational Operator
+RelationalOperator: input1 > input2 true
+Analysis Time = N/A
+
+UNDECIDED
+Speedometer_Module/Display_Speed_Output/Switch
+logical trigger input false (output is from 3rd input port)
+Analysis Time = N/A
+
+UNDECIDED
+Speedometer_Module/Display_Speed_Output/Switch
+logical trigger input true (output is from 1st input port)
+Analysis Time = N/A
+
+
+19-Mar-2023 02:36:24
+
+Completed normally.
+
+Generating output files:
+
+19-Mar-2023 02:36:28
+Results generation completed.
+
+    Data file:
+    /Users/jamesbond/Desktop/sldv_output/MiLTesting_HarnessModel/MiLTesting_HarnessModel_sldvdata.mat
+

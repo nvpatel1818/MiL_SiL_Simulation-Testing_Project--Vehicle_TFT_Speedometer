@@ -1,0 +1,73 @@
+
+19-Mar-2023 00:49:32
+Validating cached model representation from 19-Mar-2023 00:38:59...change detected
+
+19-Mar-2023 00:49:36
+Checking compatibility for design error detection: model 'Vehicle_Speedometer_Module'
+Compiling model...done
+Building model representation...done
+
+19-Mar-2023 00:50:02
+'Vehicle_Speedometer_Module' is compatible for design error detection with Simulink Design Verifier.
+
+
+Detecting design errors using model representation from 19-Mar-2023 00:50:02...
+
+VALID
+Speedometer_Module/Auxilliary_Data_Filtering/Divide
+Division by zero
+Analysis Time = 00:03:45
+
+VALID
+Speedometer_Module/Auxilliary_Data_Filtering/Divide
+Overflow
+Analysis Time = 00:03:45
+
+VALID
+Speedometer_Module/Main_Data_Filtering/Gain
+Overflow
+Analysis Time = 00:03:45
+
+VALID
+Speedometer_Module/Main_Data_Filtering/Divide
+Overflow
+Analysis Time = 00:03:45
+
+VALID
+Speedometer_Module/Display_Speed_Output/Add
+Overflow
+Analysis Time = 00:03:45
+
+VALID
+Speedometer_Module/Main_Data_Filtering/Add
+Overflow
+Analysis Time = 00:03:45
+
+VALID
+Speedometer_Module/Main_Data_Filtering/Divide
+Division by zero
+Analysis Time = 00:03:45
+
+VALID
+Speedometer_Module/Auxilliary_Data_Filtering/Gain
+Overflow
+Analysis Time = 00:03:45
+
+VALID
+Speedometer_Module/Auxilliary_Data_Filtering/Add
+Overflow
+Analysis Time = 00:03:45
+
+
+19-Mar-2023 00:53:57
+
+Error detection was stopped.
+
+Generating output files:
+
+19-Mar-2023 00:56:43
+Results generation completed.
+
+    Data file:
+    /Users/jamesbond/Desktop/sldv_output/Vehicle_Speedometer_Module/Vehicle_Speedometer_Module_sldvdata4.mat
+

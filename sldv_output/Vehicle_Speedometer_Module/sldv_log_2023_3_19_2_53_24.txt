@@ -1,0 +1,98 @@
+
+19-Mar-2023 02:51:55
+Validating cached model representation from 19-Mar-2023 02:49:51...change detected
+
+19-Mar-2023 02:51:58
+Checking compatibility for test generation: model 'Vehicle_Speedometer_Module'
+Compiling model...done
+Building model representation...done
+
+19-Mar-2023 02:52:11
+'Vehicle_Speedometer_Module' is compatible for test generation with Simulink Design Verifier.
+
+
+Generating tests using model representation from 19-Mar-2023 02:52:11...
+
+SATISFIED
+Speedometer_Module/Input_Processing/Saturation
+input > upper limit false
+Analysis Time = 00:00:28
+
+SATISFIED
+Speedometer_Module/Display_Speed_Output/Switch
+logical trigger input true (output is from 1st input port)
+Analysis Time = 00:00:28
+
+SATISFIED
+Speedometer_Module/Input_Processing/Saturation
+input >= lower limit false
+Analysis Time = 00:00:28
+
+SATISFIED
+Speedometer_Module/Compare To Zero/Compare
+RelationalOperator: input1 == input2 true
+Analysis Time = 00:00:28
+
+SATISFIED
+Speedometer_Module/Auxilliary_Data_Filtering
+Enable control activated true
+Analysis Time = 00:00:28
+
+SATISFIED
+Speedometer_Module/Main_Data_Filtering
+Enable control activated true
+Analysis Time = 00:00:28
+
+SATISFIED
+Speedometer_Module/Display_Speed_Output/Relational Operator
+RelationalOperator: input1 > input2 true
+Analysis Time = 00:00:28
+
+SATISFIED
+Speedometer_Module/Input_Processing/Saturation
+input >= lower limit true
+Analysis Time = 00:00:28
+
+SATISFIED
+Speedometer_Module/Main_Data_Filtering
+Enable control activated false
+Analysis Time = 00:00:28
+
+SATISFIED
+Speedometer_Module/Compare To Zero/Compare
+RelationalOperator: input1 == input2 false
+Analysis Time = 00:00:28
+
+SATISFIED
+Speedometer_Module/Auxilliary_Data_Filtering
+Enable control activated false
+Analysis Time = 00:00:28
+
+SATISFIED
+Speedometer_Module/Input_Processing/Saturation
+input > upper limit true
+Analysis Time = 00:00:28
+
+SATISFIED
+Speedometer_Module/Display_Speed_Output/Relational Operator
+RelationalOperator: input1 > input2 false
+Analysis Time = 00:00:53
+
+SATISFIED
+Speedometer_Module/Display_Speed_Output/Switch
+logical trigger input false (output is from 3rd input port)
+Analysis Time = 00:00:53
+
+
+19-Mar-2023 02:53:19
+
+Completed normally.
+
+Generating output files:
+
+19-Mar-2023 02:53:23
+Results generation completed.
+
+    Data file:
+    /Users/jamesbond/Desktop/sldv_output/Vehicle_Speedometer_Module/Vehicle_Speedometer_Module_sldvdata7.mat
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<?dbhtml filename="Vehicle_Speedometer_Module_report-008.html"?>
+<title>Design Min Max Constraints</title><informaltable colsep="1" frame="all" pgwide="0" rowsep="1"><tgroup align="left" cols="2"><colspec colname="1" colnum="1" colwidth="360*"/><colspec colname="2" colnum="2" colwidth="360*"/><thead><row><entry>Name</entry><entry>Design Min Max Constraint</entry></row></thead><tbody><row><entry>Avg_VehicleSpeed</entry><entry>[0..280]</entry></row><row><entry>In_MainFilt_SpeedValue</entry><entry>[1..3]</entry></row><row><entry>In_AuxFilt_SpeedValue</entry><entry>[1..3]</entry></row></tbody></tgroup></informaltable></sect2>

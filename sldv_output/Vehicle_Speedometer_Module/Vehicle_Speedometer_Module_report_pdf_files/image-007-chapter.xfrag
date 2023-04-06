@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter>
+<?dbhtml filename="Vehicle_Speedometer_Module_report-009.html"?>
+<title>Dead Logic</title><para xml:space="preserve"><?db2dom style-name="rgParagraph"?><phrase xml:space="preserve">Simulink Design Verifier proved these objectives to be unreachable or dead logic. This can be a side effect of parameter configurations or minimum and maximum constraints specified on inputs. Simulink Design Verifier ran a partial check for dead logic. Consider enabling the 'Dead logic &gt; Run exhaustive analysis' configuration option in order to perform an exhaustive analysis.</phrase><phrase xml:space="preserve"> </phrase></para></chapter>
